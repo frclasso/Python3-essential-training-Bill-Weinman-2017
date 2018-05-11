@@ -12,7 +12,7 @@ def testFunc(this, that, other, *args, **kwargs): #kwargs = key words arguments
           this, that, other, args,
           )
     print()
-    print('kwargs in a fo loop')
+    print('kwargs in a for loop')
     for k in kwargs:print(k, kwargs[k])
 
 

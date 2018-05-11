@@ -2,8 +2,8 @@
 
 
 def main():
-    print("This is the function")
-    for i in inclusive_range():
+    print("This is the function: ")
+    for i in inclusive_range(10):
         print(i, end=',')
 
 
